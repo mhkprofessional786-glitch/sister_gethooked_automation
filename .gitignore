@@ -1,0 +1,16 @@
+node_modules/
+.env
+*.log
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+.DS_Store
+
+# Dedicated automation Chrome profile (contains session cookies/local storage
+# for the automation's persistent login — never commit this).
+.playwright-profile/
+
+# Generated ad export files — keep the output/ directory itself (via
+# output/.gitkeep) but never commit the JSON it fills up with.
+output/*.json
